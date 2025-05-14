@@ -41,13 +41,14 @@ This project was developed and tested on Linux OS running on an x86 PC. The buil
 
 ### 🔹 Requirements
 
-- `soft-posit-cpp/`: C++ wrapper around SoftPosit (built)
+- `soft-posit-cpp/`: SoftPosit library
 - `eigen/`: Header-only Eigen library
+- `libs/`: contains soft posits built libs
 - `src/posit_vs_float.cpp`: demo source file
 
 Place both `soft-posit-cpp/` and `eigen/` folders in the same root directory as `src/`.
 
-### 🔹 Build
+### 🔹 Build and test
 
 ```bash
 to build:
@@ -93,6 +94,7 @@ This behavior confirms that posit arithmetic is more robust in numerical edge ca
 ```text
 posit-vs-float/
 ├── eigen/                  # Eigen library (header-only)
+├── libs/                   # Prebuilt SoftPosit library
 ├── soft-posit-cpp/         # soft posits library
 ├── src/
 │   └── posit_vs_float.cpp  # demo source
