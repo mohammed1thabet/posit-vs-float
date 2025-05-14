@@ -1,0 +1,6 @@
+[submodule "eigen"]
+	path = eigen
+	url = https://github.com/username/eigen.git
+[submodule "soft-posit-cpp"]
+	path = soft-posit-cpp
+	url = https://github.com/username/softposit-cpp.git
